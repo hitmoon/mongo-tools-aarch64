@@ -15,7 +15,7 @@ set_goenv() {
             PREF_PATH="/cygdrive/c/golang/go1.11/bin:/cygdrive/c/mingw-w64/x86_64-4.9.1-posix-seh-rt_v3-rev1/mingw64/bin:$PATH"
         ;;
         *)
-            PREF_GOROOT="/opt/golang/go1.11"
+            PREF_GOROOT="/usr/lib/go-1.11"
             # XXX might not need mongodbtoolchain anymore
             PREF_PATH="$PREF_GOROOT/bin:/opt/mongodbtoolchain/v3/bin/:$PATH"
         ;;

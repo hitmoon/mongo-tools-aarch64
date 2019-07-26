@@ -9,6 +9,7 @@ fi
 # make sure we're in the directory where the script lives
 SCRIPT_DIR="$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)"
 cd $SCRIPT_DIR
+export CC=aarch64-linux-gnu-gcc
 
 . ./set_goenv.sh
 set_goenv || exit
